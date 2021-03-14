@@ -1,0 +1,141 @@
+body {
+  background-color: #AEAEAE;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  padding: 20px;
+}
+
+.top {
+  height: 300px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top h1 {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  -webkit-transform: rotateZ(15deg);
+          transform: rotateZ(15deg);
+}
+
+.gallery {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.gallery-top-image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.gallery-second-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gallery-second-image-s {
+  width: 35%;
+}
+
+.gallery-second-image-m {
+  width: 60%;
+}
+
+.about {
+  width: 100%;
+}
+
+.about p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 126%;
+}
+
+.contacts {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contacts-headline {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts-headline h2 {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  -webkit-transform: rotateZ(15deg);
+          transform: rotateZ(15deg);
+}
+
+.contacts-buttons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contacts-buttons a {
+  text-decoration: none;
+}
+
+.contacts-button {
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 18px;
+  padding: 22px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: magenta;
+}
+
+.contacts-button:hover {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=style.css.map */
